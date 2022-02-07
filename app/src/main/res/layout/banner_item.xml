@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+            name="banner"
+            type="com.owlsheaven.shopping.repository.db.BannerEntity" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/banner_thumb"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            app:srcCompat="@drawable/ic_launcher_foreground"
+            image_url="@{banner.imageUrl}"
+            android:scaleType="center"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
+
+
