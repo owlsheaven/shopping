@@ -7,7 +7,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.owlsheaven.shopping.R
 import com.owlsheaven.shopping.databinding.ProductItemBinding
 import com.owlsheaven.shopping.repository.db.ProductEntity
-import com.owlsheaven.shopping.viewmodel.CommonViewModel
+import com.owlsheaven.shopping.ui.common.CommonViewModel
 
 class HomeProductViewHolder(
     private val binding: ProductItemBinding, private val viewModel: CommonViewModel

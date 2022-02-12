@@ -11,7 +11,7 @@
 
         <variable
             name="commonViewModel"
-            type="com.owlsheaven.shopping.viewmodel.CommonViewModel" />
+            type="com.owlsheaven.shopping.ui.common.CommonViewModel" />
 
     </data>
 

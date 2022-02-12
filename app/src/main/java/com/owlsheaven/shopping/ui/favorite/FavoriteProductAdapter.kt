@@ -3,7 +3,7 @@ package com.owlsheaven.shopping.ui.favorite
 import android.view.ViewGroup
 import androidx.paging.PagingDataAdapter
 import com.owlsheaven.shopping.repository.db.ProductEntity
-import com.owlsheaven.shopping.viewmodel.CommonViewModel
+import com.owlsheaven.shopping.ui.common.CommonViewModel
 
 class FavoriteProductAdapter(private val viewModel: CommonViewModel)
     : PagingDataAdapter<ProductEntity, FavoriteProductViewHolder>(ProductEntity.DIFF_CALLBACK) {

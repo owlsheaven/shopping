@@ -11,8 +11,7 @@ import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.GridLayoutManager
 import com.owlsheaven.shopping.R
 import com.owlsheaven.shopping.databinding.FragmentFavoriteBinding
-import com.owlsheaven.shopping.ui.GlideApp
-import com.owlsheaven.shopping.viewmodel.CommonViewModel
+import com.owlsheaven.shopping.ui.common.CommonViewModel
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.flow.collectLatest
 

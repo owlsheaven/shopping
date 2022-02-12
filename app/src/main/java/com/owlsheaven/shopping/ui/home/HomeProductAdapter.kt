@@ -3,7 +3,7 @@ package com.owlsheaven.shopping.ui.home
 import android.view.ViewGroup
 import androidx.paging.PagingDataAdapter
 import com.owlsheaven.shopping.repository.db.ProductEntity
-import com.owlsheaven.shopping.viewmodel.CommonViewModel
+import com.owlsheaven.shopping.ui.common.CommonViewModel
 
 class HomeProductAdapter(private val viewModel: CommonViewModel)
     : PagingDataAdapter<ProductEntity, HomeProductViewHolder>(ProductEntity.DIFF_CALLBACK) {
